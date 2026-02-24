@@ -1,0 +1,45 @@
+! Hide subreddit feeds (listing pages under /r/<name>/...)
+reddit.com##:matches-path(/^\/r\/[^\/]+/) shreddit-feed
+reddit.com##:matches-path(/^\/r\/[^\/]+/) [data-testid="post-container"]
+sh.reddit.com##:matches-path(/^\/r\/[^\/]+/) shreddit-feed
+sh.reddit.com##:matches-path(/^\/r\/[^\/]+/) [data-testid="post-container"]
+
+
+
+! ===== Block Custom Feeds (/user/<name>/m/<feed>/...) =====
+
+reddit.com##:matches-path(/^\/user\/[^\/]+\/m\/[^\/]+\/?$/) shreddit-feed
+reddit.com##:matches-path(/^\/user\/[^\/]+\/m\/[^\/]+\/?$/) [data-testid="post-container"]
+
+www.reddit.com##:matches-path(/^\/user\/[^\/]+\/m\/[^\/]+\/?$/) shreddit-feed
+www.reddit.com##:matches-path(/^\/user\/[^\/]+\/m\/[^\/]+\/?$/) [data-testid="post-container"]
+
+sh.reddit.com##:matches-path(/^\/user\/[^\/]+\/m\/[^\/]+\/?$/) shreddit-feed
+sh.reddit.com##:matches-path(/^\/user\/[^\/]+\/m\/[^\/]+\/?$/) [data-testid="post-container"]
+
+!Reddit home page feed remove
+www.reddit.com##[pagetype="home"] #main-content
+www.reddit.com##[pagetype="home"] [data-testid="post-container"]
+
+!Reddit home, popular, all pages feed remove
+!Commenting this line to let previously visited pages links on home page stay !www.reddit.com##shreddit-app[pagetype="home"] .main-container
+www.reddit.com##shreddit-app[pagetype="popular"] #subgrid-container
+www.reddit.com##shreddit-app[pagetype="all"] .main-container
+
+
+!Block any page with russia in the domain name
+/russia/##html
+
+!Block any web page with the keyword anywhere in the URL
+*##html:matches-path(/BollyBlindsNGossip/)
+*##html:matches-path(/InstaCelebsGossip/)
+
+!!Start White list, whitelist thing
+!! --- GLOBAL RULE (blank page on ALL websites) ---
+!*##html
+
+!! --- WHITELISTED WEBSITES (NORMAL VIEW) ---
+!www.reddit.com#@#html
+!google.com#@#html
+!chatgpt.com#@#html
+!!End White list thing
