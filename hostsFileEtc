@@ -1,3 +1,5 @@
+! Expires: 6 hours (update frequency)
+
 ! Hide subreddit feeds (listing pages under /r/<name>/...)
 reddit.com##:matches-path(/^\/r\/[^\/]+/) shreddit-feed
 reddit.com##:matches-path(/^\/r\/[^\/]+/) [data-testid="post-container"]
