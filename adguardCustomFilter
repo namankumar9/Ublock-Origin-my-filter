@@ -25,6 +25,11 @@ www.reddit.com##body:matches-path(^/$) [data-testid="post-container"]
 www.reddit.com##body:matches-path(^/popular) [data-testid="post-container"]
 www.reddit.com##body:matches-path(^/all) [data-testid="post-container"]
 
+! Trying Reddit subreddit feed hide thing again
+! Hide post feed on subreddit pages (new Reddit / shreddit)
+reddit.com##shreddit-feed
+reddit.com##faceplate-partial[src*="posts"]
+reddit.com##[data-testid="post-container"]
 
 !Block any page with russia in the domain name
 /russia/##html
