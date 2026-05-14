@@ -1,0 +1,41 @@
+! Expires: 6 hours (update frequency)
+
+! ===== Block Custom Feeds (/user/<name>/m/<feed>/...) =====
+reddit.com##body:matches-path(^/user/[^/]+/m/[^/]+/?$) shreddit-feed
+reddit.com##body:matches-path(^/user/[^/]+/m/[^/]+/?$) [data-testid="post-container"]
+
+sh.reddit.com##body:matches-path(^/user/[^/]+/m/[^/]+/?$) shreddit-feed
+sh.reddit.com##body:matches-path(^/user/[^/]+/m/[^/]+/?$) [data-testid="post-container"]
+
+
+!Reddit home page feed remove
+www.reddit.com##[pagetype="home"] #main-content
+www.reddit.com##[pagetype="home"] [data-testid="post-container"]
+
+!Reddit home, popular, all pages feed remove
+www.reddit.com##body:matches-path(^/$) [data-testid="post-container"]
+www.reddit.com##body:matches-path(^/popular) [data-testid="post-container"]
+www.reddit.com##body:matches-path(^/all) [data-testid="post-container"]
+
+! Trying Reddit subreddit feed hide thing again
+! Hide post feed on subreddit pages (new Reddit / shreddit)
+reddit.com##shreddit-feed
+reddit.com##faceplate-partial[src*="posts"]
+reddit.com##[data-testid="post-container"]
+
+!Block any page with russia in the domain name
+/russia/##html
+
+!Block any web page with the keyword anywhere in the URL
+*##html:matches-path(/BollyBlindsNGossip/)
+*##html:matches-path(/InstaCelebsGossip/)
+
+!!Start White list, whitelist thing
+!! --- GLOBAL RULE (blank page on ALL websites) ---
+!*##html
+
+!! --- WHITELISTED WEBSITES (NORMAL VIEW) ---
+!www.reddit.com#@#html
+!google.com#@#html
+!chatgpt.com#@#html
+!!End White list thing
