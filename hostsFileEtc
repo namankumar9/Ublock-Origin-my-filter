@@ -36,6 +36,9 @@ www.reddit.com##shreddit-app[pagetype="all"] .main-container
 *##html:matches-path(/BollyBlindsNGossip/)
 *##html:matches-path(/InstaCelebsGossip/)
 
+!Hide contents of a page with a particular URL. Works when URL is changed without page reloading. this one blocks claude.ai/projects.
+!claude.ai##:matches-path(/^\/projects\/?$/) body > div
+
 !!Start White list, whitelist thing
 !! --- GLOBAL RULE (blank page on ALL websites) ---
 !*##html
