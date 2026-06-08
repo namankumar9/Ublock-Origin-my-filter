@@ -1,11 +1,11 @@
 // ==UserScript==
-// @name         Hide on Meta AI - WhatsApp Web
+// @name         Hide on Keywords - WhatsApp Web
 // @match        https://web.whatsapp.com/*
 // @run-at       document-idle
 // @grant        none
 // ==/UserScript==
 (function () {
-  const TARGET_TEXT = 'Meta AI';
+  const KEYWORDS = ['Meta AI', 'keyword2', 'keyword3'];
 
   function checkAndHide() {
     const walker = document.createTreeWalker(
@@ -15,10 +15,11 @@
     );
     let node;
     while ((node = walker.nextNode())) {
-      if (node.textContent.trim() === TARGET_TEXT) {
+      const text = node.textContent.trim();
+      if (KEYWORDS.some(kw => text.includes(kw))) {
         document.body.style.setProperty('display', 'none', 'important');
-        console.warn('[MetaAI Blocker] Meta AI detected. Page hidden.');
-        observer.disconnect(); // No need to keep observing
+        console.warn(`[KeywordBlocker] Keyword detected. Page hidden.`);
+        observer.disconnect();
         return;
       }
     }
