@@ -31,6 +31,7 @@ reddit.com##[data-testid="post-container"]
 *##html:matches-path(/InstaCelebsGossip/)
 *##html:matches-path(/Bollywood/)
 *##html:matches-path(/Incels/)
+*##html:matches-path(/Hollywood/)
 
 !!Start White list, whitelist thing
 !! --- GLOBAL RULE (blank page on ALL websites) ---
