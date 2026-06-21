@@ -1,0 +1,305 @@
+#Apple, iPhone etc.
+albert.apple.com          # Device activation
+captive.apple.com         # Captive portal / connectivity check
+gs.apple.com              # Setup & updates
+humb.apple.com            # Setup
+static.ips.apple.com      # Setup
+tbsc.apple.com            # Setup
+sq-device.apple.com       # eSIM activation
+time-ios.apple.com        # NTP / date & time
+time.apple.com            # NTP / date & time
+appldnld.apple.com        # iOS updates download
+mesu.apple.com            # Update catalogs
+gg.apple.com              # iOS updates
+gdmf.apple.com            # Update catalog
+gdmf-ados.apple.com       # Additional component updates
+gsra.apple.com            # Additional component updates
+xp.apple.com              # Updates
+push.apple.com          # APNs — essential for all app notifications
+idmsa.apple.com           # Apple ID auth
+appleid.cdn-apple.com     # Apple ID auth
+itunes.apple.com          # App Store
+itunes.apple.com        # App Store content
+apps.apple.com          # App Store
+ppq.apple.com             # App validation
+appattest.apple.com     # App & Face ID/Touch ID validation
+ocsp.apple.com
+crl.apple.com
+safebrowsing.apple  # Safari fraud warnings
+icloud.com
+mzstatic.com 
+apple-cloudkit.com
+apple-mapkit.com            
+icloud-content.com            
+apple-dns.net              
+akadns.net
+aaplimg.com
+cdn-apple.com
+safebrowsing.apple
+me.com
+mzstatic.com
+itunes.apple.com
+apps.apple.com
+swcdn.apple.com
+cdn-apple.com
+configuration.apple.com
+gdmf.apple.com
+xp.apple.com
+crl.apple.com
+ocsp.apple.com
+time.apple.com
+push.apple.com
+gateway.push.apple.com
+init.ess.apple.com
+fmipmobile.icloud.com
+pancake.apple.com
+gsp-ssl.ls.apple.com
+guzzoni.apple.com
+siri.apple.com
+fastly-edge.com
+edge.apple
+itunes-nocookie.com
+apple-dns.net
+
+iphone-ld.apple.com
+iphone-ld.v.aaplimg.com
+gdmf.apple.com
+gdmf.v.aaplimg.com
+mesu.apple.com
+mesu.g.aaplimg.com
+cl2.apple.com
+cl3.apple.com
+pds.ess.apple.com
+pds-init.ess.apple.com
+kt-prod.ess.apple.com
+init.ess.apple.com
+init-p01md.apple.com
+device-config.pcms.apple.com
+device-config.v.aaplimg.com
+configuration.ls.apple.com
+
+gsp-ssl.ls.apple.com
+gspe1-ssl.ls.apple.com
+gspe79-ssl.ls.apple.com
+gsp85-ssl.ls.apple.com
+gsp10-ssl.apple.com
+h3.apis.apple.map.fastly.net
+pancake.apple.com
+
+#Google, Microsoft etc.
+google.com
+googleapis.com                
+gstatic.com                   
+googleusercontent.com         
+ggpht.com                     
+storage.googleapis.com          
+googletagmanager.com         
+fonts.googleapis.com            
+fonts.gstatic.com               
+pki.goog                        
+ocsp.pki.goog                   
+crl.pki.goog                    
+dns.google                      
+google-analytics.com
+doubleclick.net
+googlehosted.com
+
+microsoft.com
+microsoftonline.com
+office.com
+office365.com
+live.com
+msocdn.com
+windows.net
+login.microsoftonline.com
+login.live.com
+login.windows.net
+sts.windows.net
+aadcdn.msauth.net
+aadcdn.msftauth.net
+outlook.office365.com
+teams.microsoft.com
+onedrive.live.com
+outlook.live.com
+ocsp.msocsp.com
+crl.microsoft.com
+mscrl.microsoft.com
+oneocsp.microsoft.com
+spov-msedge.net
+microsoftpersonalcontent.com
+azure.com
+ln-msedge.net
+cloud.microsoft
+live.net
+appcenter.ms
+ax-msedge.net
+tm-azurefd.net
+microsoftapp.net
+trafficmanager.net
+sharepoint.com
+azurefd.net
+wac-msedge.net
+skype.com
+azureedge.net
+
+#Auth. etc.
+auth0.com
+
+#Payments, Upi etc.
+phonepe.com
+paytm.com
+paytm.in
+razorpay.com
+cashfree.com
+payu.in
+ccavenue.com
+
+pay.google.com
+payments.google.com
+
+hdfc.bank.in
+hdfcbank.bank.in
+hdfcbank.net
+
+icicibank.com
+sbi.co.in
+sbi.bank.in
+
+axisbank.com
+kotak.com
+
+
+
+#Cabs etc.
+uber.com
+ubercdn.com
+olacabs.com
+olaelectric.com
+rapido.bike
+nammayatri.in
+beckn.org
+savaari.com
+
+#From Stayfocused etc.
+uidai.gov.in
+digilocker.gov.in
+api.digitallocker.gov.in
+windowsazure.com
+zoho.com
+1drv.ms
+bingj.com
+centinelapi.cardinalcommerce.com
+billing.stripe.com
+juspay.in
+lockbox.pluckeye.net
+lockmeout.online
+nextdns.io
+oauth.googleusercontent.com
+office.com
+office.net
+onedrive.live.com
+onenote.cloud.microsoft
+onenote.com
+password-locker.com
+proton.me
+payu.in
+wibmo.com
+evernote.com
+simplenote.com
+razorpay.com
+link.com
+Github.com
+githubusercontent.com
+
+#Messengers etc.
+whatsapp.com
+whatsapp.net
+beeper.com
+
+#Time
+pool.ntp.org
+time.cloudflare.com
+
+
+#CDN etc., Certificates etc., app background, infrastructure etc.
+cloudflare.com
+cdnjs.cloudflare.com            
+akamai.net
+akamaized.net
+akamaihd.net
+edgekey.net                   
+edgesuite.net                 
+akamaiedge.net                
+akamaitechnologies.com
+a248.e.akamai.net               
+cloudfront.net
+amazonaws.com
+azurefd.net                   
+azureedge.net                 
+msecnd.net                    
+vo.msecnd.net                 
+ajax.aspnetcdn.com              
+fastly.net
+fastlydns.net
+fastlylb.net
+global.ssl.fastly.net
+b-cdn.net
+bunnycdn.com
+bunny.net
+cdn77.com
+cloudinary.com
+jsdelivr.net
+unpkg.com
+gcdn.co
+use.typekit.net                 
+p.typekit.net
+kit.fontawesome.com             
+use.fontawesome.com
+edgecastcdn.net               
+edgio.net
+hwcdn.net                     
+kxcdn.com                     
+llnwd.net                     
+sucuri.net                    
+
+firebase.com
+firebaseio.com
+crashlytics.com
+sentry.io
+branch.io
+app.link
+onesignal.com
+amplitude.com
+mixpanel.com
+api.segment.io
+cdn.segment.com
+intercom.io
+intercomassets.com
+cloudflare-dns.com
+one.one.one.one
+root-servers.net
+
+ocsp.digicert.com
+crl.digicert.com
+ocsp.sectigo.com
+crl.sectigo.com
+ocsp.comodoca.com
+crl.comodoca.com
+ocsp.usertrust.com
+ocsp.globalsign.com
+crl.globalsign.com
+ocsp2.globalsign.com
+ocsp.entrust.net
+crl.entrust.net
+letsencrypt.org
+ocsp.int-x3.letsencrypt.org
+r3.o.lencr.org
+r10.o.lencr.org
+e1.o.lencr.org
+x1.c.lencr.org
+
+#From Nextdns historical logs
+mapmyindia.com
+
+#Jcw
+leetcode.com
