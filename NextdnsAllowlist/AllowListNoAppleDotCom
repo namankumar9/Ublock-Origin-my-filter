@@ -1,31 +1,31 @@
 #Apple, iPhone etc.
-albert.apple.com          # Device activation
-captive.apple.com         # Captive portal / connectivity check
-gs.apple.com              # Setup & updates
-humb.apple.com            # Setup
-static.ips.apple.com      # Setup
-tbsc.apple.com            # Setup
-sq-device.apple.com       # eSIM activation
-time-ios.apple.com        # NTP / date & time
-time.apple.com            # NTP / date & time
-appldnld.apple.com        # iOS updates download
-mesu.apple.com            # Update catalogs
-gg.apple.com              # iOS updates
-gdmf.apple.com            # Update catalog
-gdmf-ados.apple.com       # Additional component updates
-gsra.apple.com            # Additional component updates
-xp.apple.com              # Updates
-push.apple.com          # APNs — essential for all app notifications
-idmsa.apple.com           # Apple ID auth
-appleid.cdn-apple.com     # Apple ID auth
-itunes.apple.com          # App Store
-itunes.apple.com        # App Store content
-apps.apple.com          # App Store
-ppq.apple.com             # App validation
-appattest.apple.com     # App & Face ID/Touch ID validation
+albert.apple.com          
+captive.apple.com         
+gs.apple.com              
+humb.apple.com            
+static.ips.apple.com      
+tbsc.apple.com            
+sq-device.apple.com       
+time-ios.apple.com        
+time.apple.com            
+appldnld.apple.com        
+mesu.apple.com            
+gg.apple.com              
+gdmf.apple.com            
+gdmf-ados.apple.com       
+gsra.apple.com            
+xp.apple.com              
+push.apple.com          
+idmsa.apple.com           
+appleid.cdn-apple.com     
+itunes.apple.com          
+itunes.apple.com        
+apps.apple.com          
+ppq.apple.com             
+appattest.apple.com     
 ocsp.apple.com
 crl.apple.com
-safebrowsing.apple  # Safari fraud warnings
+safebrowsing.apple  
 icloud.com
 mzstatic.com 
 apple-cloudkit.com
