@@ -1,0 +1,7 @@
+*##html:style(display: none !important;)
+password-locker.com#@#html:style(display: none !important;)
+*$document,domain=~apple.com|~wikipedia.org|~github.com|~google.com
+proton.me##html:style(display: none !important; opacity: 0 !important;)
+||lockmeout.online^$document
+pluckeye.net#@#html:style(display: none !important;)
+
