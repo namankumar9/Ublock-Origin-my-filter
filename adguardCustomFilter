@@ -25,7 +25,6 @@ reddit.com##[data-testid="post-container"]
 
 !Block any page with russia in the domain name
 /russia/##html
-/leetcode/##html
 
 !Block any web page with the keyword anywhere in the URL
 *##html:matches-path(/BollyBlindsNGossip/)
@@ -33,8 +32,6 @@ reddit.com##[data-testid="post-container"]
 *##html:matches-path(/Bollywood/)
 *##html:matches-path(/Incels/)
 *##html:matches-path(/Hollywood/)
-*##html:matches-path(/Leetcode/)
-*##html:matches-path(/leetcode/)
 
 !!Start White list, whitelist thing
 !! --- GLOBAL RULE (blank page on ALL websites) ---
