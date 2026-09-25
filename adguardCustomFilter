@@ -32,6 +32,7 @@ reddit.com##[data-testid="post-container"]
 *##html:matches-path(/Bollywood/)
 *##html:matches-path(/Incels/)
 *##html:matches-path(/Hollywood/)
+*##html:matches-path(/Leetcode/)
 
 !!Start White list, whitelist thing
 !! --- GLOBAL RULE (blank page on ALL websites) ---
