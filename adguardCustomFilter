@@ -33,6 +33,13 @@ reddit.com##[data-testid="post-container"]
 *##html:matches-path(/Incels/)
 *##html:matches-path(/Hollywood/)
 
+!Either keyword
+!*##html:matches-path(/keyword1|keyword2/)
+!keyword1 followed by keyword2
+!*##html:matches-path(/keyword1.*keyword2/)
+!keyword1 and keyword2 in any order
+!*##html:matches-path(/(?=.*keyword1)(?=.*keyword2)/)
+
 !!Start White list, whitelist thing
 !! --- GLOBAL RULE (blank page on ALL websites) ---
 !*##html
