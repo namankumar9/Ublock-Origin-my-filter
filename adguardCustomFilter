@@ -33,6 +33,9 @@ reddit.com##[data-testid="post-container"]
 *##html:matches-path(/Incels/)
 *##html:matches-path(/Hollywood/)
 
+/supporters/
+
+
 !Either keyword
 !*##html:matches-path(/keyword1|keyword2/)
 !keyword1 followed by keyword2
