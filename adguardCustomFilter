@@ -33,7 +33,8 @@ reddit.com##[data-testid="post-container"]
 *##html:matches-path(/Incels/)
 *##html:matches-path(/Hollywood/)
 
-/supporters/
+!Block any web page with the keyword anywhere in the URL. Works in Adguard extension, and in Ultimate Blocker extension
+/keyword1/$document
 
 //Block queries, search etc. for a keyword kind of URLs. Like Cold Turkey Blocker
 *p=*news*$document
