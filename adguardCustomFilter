@@ -33,17 +33,6 @@ reddit.com##[data-testid="post-container"]
 *##html:matches-path(/Incels/)
 *##html:matches-path(/Hollywood/)
 
-!Block any web page with the keyword anywhere in the URL. Works in Adguard extension, and in Ultimate Blocker extension
-/keyword1/$document
-
-!Multiple keywords (Rahul should come before gandhi here)
-/Rahul.*Gandhi/$document
-
-//Block queries, search etc. for a keyword kind of URLs. Like Cold Turkey Blocker
-*p=*news*$document
-*q=*news*$document
-
-
 !Either keyword
 !*##html:matches-path(/keyword1|keyword2/)
 !keyword1 followed by keyword2
@@ -60,3 +49,13 @@ reddit.com##[data-testid="post-container"]
 !google.com#@#html
 !chatgpt.com#@#html
 !!End White list thing
+
+!Block any web page with the keyword anywhere in the URL. Works in Adguard extension, and in Ultimate Blocker extension
+/keyword1/$document
+
+!Multiple keywords (Rahul should come before gandhi here)
+/Rahul.*Gandhi/$document
+
+//Block queries, search etc. for a keyword kind of URLs. Like Cold Turkey Blocker
+*p=*news*$document
+*q=*news*$document
